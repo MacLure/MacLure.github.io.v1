@@ -1,0 +1,58 @@
+.linkIcon {
+    width: 30px;
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.gridHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headerLeft {
+    grid-column-start: 1
+}
+
+.headerRight {
+    grid-column-start: 2
+}
+
+.reservitHeader {
+    width: 200px;
+}
+
+.jetLogo {
+    width: 200px;
+}
+
+.jetHeader {
+    width: 100%;
+}
+
+.screenCap {
+    width: 500px;
+}
+
+.login {
+    height: 20px;
+    padding-right: 10px;
+}
+
+.largeIcon {
+    height: 90px;
+}
+
+.techStack {
+    display: inline-block;
+}
+
+.techStack>li {
+    padding: 5px;
+}
+
+.bulletList>li {
+    list-style-type: disc;
+}
