@@ -157,8 +157,8 @@ h2 {
     font-size: 0.8em;
     margin-top: 10px;
     font-weight: 600;
-    width: 50%;
-
+    width: 100%;
+    text-align: center;
 }
 
 #htmlText {color: magenta;}
@@ -323,7 +323,7 @@ li {
     display: none;
 }
 
-.mobileTechGroup {
+.mobileTechGroup3 {
     display: none;
 }
 
