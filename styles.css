@@ -24,17 +24,13 @@ canvas {
     z-index: 1;
 }
 
-.mainDisplay {
-    width: 100vw;
-    background-color: yellow
-}
-
 .profilepic {
     height: 95%;
     border-radius: 50%;
 }
 
 .profileBorder{
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,6 +38,14 @@ canvas {
     height: 322.5px;
     border-radius: 50%;
     background: -webkit-linear-gradient(-90deg, magenta, orange);
+}
+
+.skillsList {
+    margin-left: 55px;
+}
+
+.skillsList>li {
+    text-align: justify;
 }
 
 a {
@@ -86,10 +90,44 @@ h2 {
 .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
 }
 
+.grid-left {
+    width: 500px;
+}
+
+.grid-right {
+    width: 30vw;
+    position: relative;
+}
+
+.social {
+    padding-top: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    bottom: 0;
+}
+
+.social>a>.icon {
+    height: 30px;
+}
+
+.social>a:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.techHeader {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
 
 .tech {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -150,7 +188,6 @@ h2 {
 
 .diamond>a>div * {
     transform: rotate(-45deg);
-
 }
 
 .diamond>a>div>img {
@@ -176,7 +213,6 @@ h2 {
     height: 200px;
     background-color: white;
     left: 540px;
-
 }
 
 .diamond3{
@@ -262,22 +298,7 @@ li {
     height: 50px;
 }
 
-.social {
-    display: flex;
-    justify-content: space-between;
-    max-width: 200px; 
 
-}
-
-.social>a>.icon {
-    height: 30px;
-}
-
-.social>a:hover {
-    /* opacity: 0.5; */
-    transition: 0.2s;
-
-}
 
 
 @media only screen and (max-width: 1020px) {
