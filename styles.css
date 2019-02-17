@@ -10,6 +10,11 @@ body {
     font-weight: 400;
 }
 
+.headerGrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .hero {
     position: relative;
 }
@@ -17,6 +22,11 @@ body {
 canvas {
     position: absolute;
     z-index: 1;
+}
+
+.mainDisplay {
+    width: 100vw;
+    background-color: yellow
 }
 
 .profilepic {
