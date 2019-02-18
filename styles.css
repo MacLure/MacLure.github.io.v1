@@ -190,7 +190,6 @@ h2 {
 }
 
 .projects {
-    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -202,7 +201,7 @@ h2 {
 
 .diamond {
     margin: 0 auto;
-    width: 50vw;
+    width: 800px;
     position: relative;
     height: 400px;
     overflow: visible;
@@ -268,19 +267,6 @@ h2 {
 
 .horizon:hover {
     background: -webkit-linear-gradient(45deg, magenta, orange);
-}
-
-.jet:hover {
-    background: -webkit-linear-gradient(45deg, magenta, orange);
-}
-
-.jet {
-    grid-column-start: 2;
-    text-align:center;
-}
-
-.jet>div>img {
-    height: 90px;
 }
 
 .paragraph {
@@ -349,14 +335,30 @@ li {
 }
 
 .mobileTechGroup1 {
+    margin: 0 auto;
     display: none;
+    max-width: 500px;
 }
 
 .mobileTechGroup2 {
+    margin: 0 auto;
     display: none;
+    max-width: 500px;
 }
 
 .mobileTechGroup3 {
+    margin: 0 auto;
+    display: none;
+    max-width: 500px;
+}
+
+
+
+.mobileDiamond {
+    display: none;
+}
+
+.mobileDiamond4, .mobileDiamond3, .mobileDiamond2, .mobileDiamond1 {
     display: none;
 }
 
@@ -414,5 +416,84 @@ li {
     h2 {
         font-size: 1.5em;
     }
+
+    .mobileDiamond {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 0px;
+        height: 500px;
+    }
+
+    .diamond {
+        display: none;
+    }
+
+    .mobileDiamond4, .mobileDiamond3, .mobileDiamond2, .mobileDiamond1 {
+        display: block;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        transform: rotate(45deg);
+        background-color: white;
+    }
+
+    .mobileDiamond1 {
+        left: -100px;
+        top: 0px;
+    }
+
+    .mobileDiamond2 {
+        left: 15px;
+        top: 115px;
+    }
+
+    .mobileDiamond3 {
+        left: -100px;
+        top: 230px;
+    }
+
+    .mobileDiamond4 {
+        left: 15px;
+        top: 345px;
+    }
+
+
+    .horizonIcon {
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 150px;
+        top: 50px;
+        left: 5px;
+        height: 50px;
+    }
+    
+    .reserve-itIcon {
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 200px;
+        top: 40px;
+        left: -20px;
+        height: 75px;
+    }
+    
+    .classicalHarmonyIcon {
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 120px;
+        top: 40px;
+        left: 20px;
+        height: 66px;
+    }
+    
+    .tarot-rizeIcon {
+        transform: rotate(-45deg);
+        position: absolute;
+        width: 120px;
+        top: 30px;
+        left: 10px;
+        height: 80px;
+    }
+
 
 }
