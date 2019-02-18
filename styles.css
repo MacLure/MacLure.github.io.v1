@@ -208,12 +208,6 @@ h2 {
     transform: rotate(-45deg);
 }
 
-.diamond>a>div>img {
-    position: absolute;
-    width: 200px;
-    top: 70px;
-    left: 5px
-}
 
 .diamond1{
     position: absolute;
@@ -314,6 +308,36 @@ li {
 
 .icon {
     height: 50px;
+}
+
+.horizonIcon {
+    position: absolute;
+    width: 200px;
+    top: 70px;
+    height: 50px;
+}
+
+.reserve-itIcon {
+    position: absolute;
+    width: 200px;
+    top: 60px;
+    left: -5px;
+    height: 75px;
+}
+
+.classicalHarmonyIcon {
+    position: absolute;
+    width: 200px;
+    top: 70px;
+    height: 66px;
+}
+
+.tarot-rizeIcon {
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    left: -10px;
+    height: 80px;
 }
 
 .mobileTechGroup1 {
