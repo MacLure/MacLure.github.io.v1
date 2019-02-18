@@ -1,0 +1,118 @@
+.tablet{
+  position: relative;
+	/* height:650px;
+  width:310px;
+  height:325px;
+  width:155px; */
+  height:220.5px;
+	width:300px;
+	margin: 0 auto;
+
+}
+
+.case{
+  position: absolute;
+	height:100%;
+	width:100%;
+	font-size: 0;
+	background-color: white;
+	position: absolute;
+  margin: auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border: 1px solid rgb(168, 168, 168);
+	z-index: 10;
+	border-radius:15px;
+	overflow: hidden;
+}
+
+.reflection {
+  position: absolute;
+  /*background: linear-gradient(180deg, #fff, #000 80%);*/
+  width: 150%; 
+  height: 150%;
+  transform-origin: 10% -20%;
+  transform: rotateZ(-30deg) translateX(60px); 
+  opacity: 0.3;
+  z-index: 1;
+  pointer-events: none;
+  background-color: white;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.earPiece{
+	position: absolute;
+	top:50%;
+	left:1%;
+  background-color: #242424;
+	width: 5px;
+	height:5px;
+	border-radius: 50%;
+	border-style: inset;
+	border-color: #38393a;
+	border-width: 1px;
+	z-index: 20;
+}
+
+.screen{
+	height:92%;
+	width:80%;
+	font-size: 0;
+	background-color: black;
+	position: absolute;
+	top:4%;
+	left:10%;
+}
+
+.display{
+	position: absolute;
+	background-color: black;
+	height: 10%;
+	width: 260px;
+	top: 10px;
+	left: 20px;
+}
+
+
+.homeButton{
+	position: absolute;
+	bottom:48%;
+	right:2%;
+	background-color: white;
+	width: 5%;
+	height:6%;
+	border-radius: 50%;
+	border-style: inset;
+	border-color: #c0c0c0;
+	border-width: 1px;
+}
+
+
+.camera{
+	position: absolute;
+	bottom:50%;
+	left:3%;
+	background-color: rgb(39, 39, 39);
+	width: 1%;
+	height:1.5%;
+	border-radius: 50%;
+	border-style: inset;
+	border-color: #474747;
+	border-width: 1px;
+}
+
+.shadow {
+  position: absolute;
+	margin: auto;
+	opacity: 0.5;
+  left:-2.5%;
+  bottom: -1%;
+  height: 2%;
+  width:105%;  
+  /* z-index: 1; */
+  border-radius: 50%;
+  background-image: radial-gradient(black 0%,rgba(0, 0, 0, 0))
+}
