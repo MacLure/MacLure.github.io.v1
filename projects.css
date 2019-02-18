@@ -55,4 +55,10 @@ a:hover {
 
 .bulletList>li {
     list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.horizonLoginCredientials {
+    margin-left: 50px;
 }
