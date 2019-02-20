@@ -42,7 +42,7 @@
   -webkit-mask-image: -webkit-gradient(linear, left top, 
     left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
-
+/* 
 .earPiece{
 	position: absolute;
 	top:50%;
@@ -55,7 +55,7 @@
 	border-color: #38393a;
 	border-width: 1px;
 	z-index: 200;
-}
+} */
 
 .screen{
 	height:80%;
@@ -66,7 +66,7 @@
 	top:7%;
 	left:2%;
 }
-
+/* 
 .display{
 	position: absolute;
 	background-color: black;
@@ -74,8 +74,8 @@
 	width: 260px;
 	top: 10px;
 	left: 20px;
-}
-
+} */
+/* 
 .batteryA{
 	position: absolute;
 	top: 2%;
@@ -128,15 +128,16 @@
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-}
+} */
 
 .keysCont{
 	position: absolute;
 	background-color: black;
 	width: 96%;
-	height: 92%;
+	height: 95%;
 	left:2%;
 	top: 5%;
+	overflow: hidden;
 }
 
 .homeButton{
