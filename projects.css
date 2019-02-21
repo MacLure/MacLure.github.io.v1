@@ -26,6 +26,12 @@ a:hover {
     width: 500px;
 }
 
+.HorizonHeaderImage {
+    margin: 0 auto;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
 .classicalHarmonyHeaderImage {
     margin: 0 auto;
     height: 100px;
@@ -81,7 +87,7 @@ a:hover {
 }
 
 .horizonHeaderLeft {
-    /* margin-left: 50px; */
+    text-align: center;
 }
 
 .horizonLoginCredientials {
@@ -116,5 +122,5 @@ a:hover {
 }
 
 .screencap {
-    width: 100%
+    width: 100%;
 }
