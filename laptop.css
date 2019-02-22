@@ -30,10 +30,9 @@
   transform: rotateZ(-30deg) translateX(350px); 
 }
 
-
 .camera {
   position: absolute;
-  top: 10px;
+  top: 7px;
   left: 50%;
   margin: auto;
   height: 7px;
@@ -41,6 +40,17 @@
   background-color: #111;
   box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
   border-radius: 50%;
+}
+
+.screen {
+  position: absolute;
+  top: 20px;
+  left: 2.5%;
+  margin: auto;
+  height: 50%;
+  width: 95%;
+  background-color: rgb(0, 0, 0);
+
 }
 
 .screenbottomedge {
