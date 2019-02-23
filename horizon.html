@@ -44,15 +44,15 @@
             </div>
         </div>
             <div class="headerRight">
-                <p class="paragraph">Horizon is a web-based student and admin portal for managing student success.</p>
+                <p class="paragraph">Horizon is a web-based student and admin management tool for schools' career program success.</p>
                 <p class="paragraph">It is designed for schools that have an outcomes or careers team who wish to optimize their communication between themselves and with students.</p>
                 <p class="paragraph">It features a personalized dashboard for admins and students and allows them to create, read, update, and delete information such as events, assignments, submissions, and comments.</p>            
-            
-                <ul class="projectLinks">
-                    <li><a a target="_blank" href="https://github.com/MacLure/project-horizon-react"><img class="linkIcon" src="./projects/github.svg" alt="GitHub">Github</a></li>
-                    <li><a a target="_blank" href="https://project-horizon-react.herokuapp.com/"><img class="linkIcon" src="./projects/earth-globe.svg" alt="GitHub">Live</a></li>
-                </ul>
+                <div class="projectLinks">
+                    <a class="linkLive" a target="_blank" href="https://github.com/MacLure/project-horizon-react"><img class="linkIcon" src="./projects/earth-globe.svg" alt="web">Live</a>
+                    <a class="ghLive" target="_blank" href="https://project-horizon-react.herokuapp.com/"><img class="linkIcon" src="./projects/github.svg" alt="GitHub">Github</a>
+                </div> 
                 <ul class="horizonLoginCredientials">
+                    <li class="loginCredentialsText">login credentials:</li>
                     <li><img class="login" src="./projects/horizon/user.svg">sally.mcadmin@horizon.com</li>
                     <li><img class="login" src="./projects/horizon/key.svg">clara.ostudent@okboom.com</li>
                 </ul>
@@ -61,15 +61,15 @@
     </section>
 
     <section class="sectionPadding black">
-        <h2>Tech Stack</h2>
+        <h2 class="projectTechStackH2">Tech Stack</h2>
 
         <img class="largeIcon" src="./tech icons/monitor.svg" alt="Back End Technologies">
-        <ul class="techStack">
+        <ul class="techStack frontEndTech">
             <li>React</li>
             <li>Redux</li>
             <li>Styled Components</li>
         </ul>
-        <img class="largeIcon" src="./tech icons/database.svg" alt="Back End Technologies">
+        <img class="largeIcon " src="./tech icons/database.svg" alt="Back End Technologies">
         <ul class="techStack">
             <li>Rails API</li>
             <li>Knock</li>
@@ -79,12 +79,12 @@
             <li>PostgreSQL</li>
             <li>Bcrypt</li>
         </ul>
-        <p class="paragraph">We took advantage of React's rendering capabilities in our dashboards, which update dynamically without reloading the page.</p>
+        <!-- <p class="paragraph">We took advantage of React's rendering capabilities in our dashboards, which update dynamically without reloading the page.</p>
         <p class="paragraph">Using Redux allowed our various components access to the user's web token from anywhere in the app, which is required to perform certain actions, such as creating or deleting assignments.</p>
-        <p class="paragraph">Building our back-end as a Rails API, we were able to build an independent back-end and front-end, allowing us to switch to any other front- or back-end framework in the future while leaving the other intact.</p>
+        <p class="paragraph">Building our back-end as a Rails API, we were able to build an independent back-end and front-end, allowing us to switch to any other front- or back-end framework in the future while leaving the other intact.</p> -->
 
     </section>
-
+<!-- 
     <section class="sectionPadding white">
         <h2>Our Development Approach</h2>
         <p class="paragraph">We interviewed potential users and constructed some use-case scenarios:</p>
@@ -96,7 +96,7 @@
         <p class="paragraph">Based on our collected information, we opted not to include a built-in messaging feature in our app, as effective alternatives are already in common use, and adding another channel of communication would not add to our app's unique value proposition.</p>
 
 
-    </section>
+    </section> -->
 
     <section class="sectionPadding black">
         <div class="footersocial">

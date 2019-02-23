@@ -1,6 +1,7 @@
 .linkIcon {
     width: 30px;
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 a:hover {
@@ -18,7 +19,6 @@ a:hover {
     margin: 0 auto;
     width: 300px;
     text-align: center;
-
 }
 
 .headerRight {
@@ -61,10 +61,16 @@ a:hover {
 
 .largeIcon {
     height: 90px;
+    margin-right: 20px;
+}
+
+.frontEndTech {
+    margin-right: 50px;
 }
 
 .techStack {
     display: inline-block;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -79,8 +85,19 @@ a:hover {
 }
 
 .projectLinks {
+    display: grid;
+    grid-template-columns: 3;
     padding-top: 20px;
     line-height: 2em;
+    /* text-align: center; */
+}
+
+.linkLive {
+    grid-column-start: 1;
+}
+
+.ghLive {
+    grid-column-start: 2;
 }
 
 .projectLinks>li>a>img {
@@ -93,6 +110,11 @@ a:hover {
 
 .horizonLoginCredientials {
     margin-left: 50px;
+    color: grey;
+}
+
+.loginCredentialsText {
+    margin-bottom: 5px;
 }
 
 .backButton {
@@ -112,7 +134,7 @@ a:hover {
 }
 
 .backButton>img {
-    width:75%
+    width:66%
 }
 
 .backButton:hover {

@@ -8,7 +8,10 @@ body {
     line-height: 1.4em;
     font-size: 1.2em;
     font-weight: 400;
+    background-color: black;
 }
+
+p {letter-spacing: 0.05em}
 
 .headerGrid {
     display: grid;
@@ -18,6 +21,15 @@ body {
 .hero {
     position: relative;
 }
+
+.heroH2 {width: 600px;}
+.aboutMeH2 {width: 250px; margin-bottom: 40px;}
+.techHeader {width: 450px; margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.projectsH2 {width: 180px; margin-top: 0px;}
+.projectTechStackH2 {width: 250px}
 
 canvas {
     position: absolute;
@@ -56,6 +68,8 @@ a {
 .main {
     height: 100vh;
     box-sizing: border-box;
+    width: 100vw;
+    padding: 50px;
 }
 
 h1 {
@@ -74,7 +88,7 @@ h2 {
 }
 
 .sectionPadding {
-    padding: 50px;
+    margin: 50px;
 }
 
 .white {
@@ -87,8 +101,11 @@ h2 {
     color: white;
 }
 
-.main-grid {
+.mainSection {
+    margin-bottom: 0;
+}
 
+.main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
@@ -103,8 +120,12 @@ h2 {
     position: relative;
 }
 
+.whiteLink {
+    color: white;
+}
+
 .social {
-    padding-top: 110px;
+    padding-top: 60px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -132,10 +153,7 @@ h2 {
     transition: 0.2s;
 }
 
-.techHeader {
-    padding-top: 40px;
-    padding-bottom: 15px;
-}
+
 
 .tech {
     padding-top: 15px;
@@ -382,6 +400,10 @@ li {
     /* .black {
       background-color: green;
     } */
+
+    .sectionPadding {
+        margin: 10px;
+    }
 
     .tech {
         display: none;
