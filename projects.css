@@ -1,3 +1,10 @@
+.projectMain {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 50px;
+
+}
+
 .linkIcon {
     width: 30px;
     margin-right: 20px;

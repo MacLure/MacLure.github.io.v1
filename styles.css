@@ -23,8 +23,8 @@ p {letter-spacing: 0.05em}
 }
 
 .heroH2 {width: 600px;}
-.aboutMeH2 {width: 250px; margin-bottom: 40px;}
-.techHeader {width: 450px; margin-bottom: 20px;
+.aboutMeH2 {width: 220px; margin-bottom: 40px;}
+.techHeader {width: 410px; margin-bottom: 20px;
     padding-top: 40px;
     padding-bottom: 15px;
 }
@@ -49,7 +49,7 @@ canvas {
     width: 300px;
     height: 322.5px;
     border-radius: 50%;
-    background: -webkit-linear-gradient(-90deg, magenta, orange);
+    background: -webkit-linear-gradient(-45deg, magenta, orange);
 }
 
 .skillsList {
