@@ -12,8 +12,8 @@
     width: 99%;
     color: rgb(255, 107, 255);
     filter: hue-rotate(360deg);
-    transform: rotateY(720deg);
-    transition: 1s;
+    transform: rotateY(180deg);
+    transition: 0.75s;
     animation: 0.5s linear 0s infinite active;
     animation-fill-mode: forwards;
 }

@@ -170,3 +170,52 @@ l7t.addEventListener('mouseout', function (e) {
   l7.classList.remove("active")
   e.stopPropagation()
 })
+
+// H2 Transformation
+
+
+window.onload = function() {
+  adjustor = 0.33
+  f1.classList.add("active")
+  setTimeout(function(){f2.classList.add("active")}, 100 * adjustor)
+  setTimeout(function(){f3.classList.add("active")}, 200 * adjustor)
+  setTimeout(function(){f4.classList.add("active")}, 300 * adjustor)
+  setTimeout(function(){f5.classList.add("active")}, 400 * adjustor)
+  setTimeout(function(){f6.classList.add("active")}, 500 * adjustor)
+  setTimeout(function(){f7.classList.add("active")}, 600 * adjustor)
+
+  setTimeout(function(){l1.classList.add("active")}, 700 * adjustor)
+  setTimeout(function(){l2.classList.add("active")}, 800 * adjustor)
+  setTimeout(function(){l3.classList.add("active")}, 900 * adjustor)
+  setTimeout(function(){l4.classList.add("active")}, 1000 * adjustor)
+  setTimeout(function(){l5.classList.add("active")}, 1100 * adjustor)
+  setTimeout(function(){l6.classList.add("active")}, 1200 * adjustor)
+  setTimeout(function(){l7.classList.add("active")}, 1300 * adjustor)
+
+
+  setTimeout(function(){f1.classList.remove("active")}, 700 * adjustor)
+  setTimeout(function(){f2.classList.remove("active")}, 800 * adjustor)
+  setTimeout(function(){f3.classList.remove("active")}, 900 * adjustor)
+  setTimeout(function(){f4.classList.remove("active")}, 1000 * adjustor)
+  setTimeout(function(){f5.classList.remove("active")}, 1100 * adjustor)
+  setTimeout(function(){f6.classList.remove("active")}, 1200 * adjustor)
+  setTimeout(function(){f7.classList.remove("active")}, 1300 * adjustor)
+
+  setTimeout(function(){l1.classList.remove("active")}, 1400 * adjustor)
+  setTimeout(function(){l2.classList.remove("active")}, 1500 * adjustor)
+  setTimeout(function(){l3.classList.remove("active")}, 1600 * adjustor)
+  setTimeout(function(){l4.classList.remove("active")}, 1700 * adjustor)
+  setTimeout(function(){l5.classList.remove("active")}, 1800 * adjustor)
+  setTimeout(function(){l6.classList.remove("active")}, 1800 * adjustor)
+  setTimeout(function(){l7.classList.remove("active")}, 2000 * adjustor)
+}
+
+
+title2 = document.querySelector('#title2')
+
+
+title2.addEventListener('mouseout', function (e) {
+  console.log("OK")
+  title2text.classList.remove("active")
+  e.stopPropagation()
+})
