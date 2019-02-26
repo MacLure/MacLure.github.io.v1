@@ -224,6 +224,8 @@ h2 {
     height: 400px;
     overflow: visible;
     color: black;
+    transition: 0.2s;
+
 }
 
 .diamond>a>div:hover {
