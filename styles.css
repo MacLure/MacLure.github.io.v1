@@ -22,7 +22,7 @@ p {letter-spacing: 0.05em}
     position: relative;
 }
 
-.heroH2 {width: 600px;}
+.heroH2 {width: 600px; cursor: default;}
 .aboutMeH2 {width: 220px; margin-bottom: 40px;}
 .techHeader {width: 410px; margin-bottom: 20px;
     padding-top: 40px;
@@ -70,6 +70,7 @@ a {
     box-sizing: border-box;
     width: 100vw;
     padding: 50px;
+    overflow: hidden;
 }
 
 h1 {
@@ -92,6 +93,7 @@ h2 {
 }
 
 .white {
+    position: relative;
     background-color: white;
     color: black;
 }
@@ -197,7 +199,6 @@ h2 {
 #rubyText {color: rgb(253, 129, 98);}
 #railsText {color: rgb(253, 142, 98);}
 #gitText {color: orange;}
-
 
 
 

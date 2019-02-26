@@ -28,6 +28,7 @@ l6 = document.querySelector('#l6')
 l7t = document.querySelector('#l7t')
 l7 = document.querySelector('#l7')
 
+adjustor = 0.33
 
 f1t.addEventListener('mouseover', function (e) {
   f1.classList.add("active")
@@ -175,7 +176,6 @@ l7t.addEventListener('mouseout', function (e) {
 
 
 window.onload = function() {
-  adjustor = 0.33
   f1.classList.add("active")
   setTimeout(function(){f2.classList.add("active")}, 100 * adjustor)
   setTimeout(function(){f3.classList.add("active")}, 200 * adjustor)
@@ -211,11 +211,11 @@ window.onload = function() {
 }
 
 
-title2 = document.querySelector('#title2')
+heroH2 = document.querySelector('.heroH2')
 
 
-title2.addEventListener('mouseout', function (e) {
+heroH2.addEventListener('mouseover', function (e) {
   console.log("OK")
-  title2text.classList.remove("active")
+  heroH2.classList.remove("active")
   e.stopPropagation()
 })

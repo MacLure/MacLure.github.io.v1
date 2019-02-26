@@ -4,7 +4,6 @@
     color: black;
     transition: 2s;
     height: 100%;
-
 }
 
 .active {
@@ -18,8 +17,96 @@
     animation-fill-mode: forwards;
 }
 
-
 @keyframes active {
     from {    color: rgb(255, 107, 255);filter: hue-rotate(0deg);   }
     to   {    color: rgb(255, 107, 255);filter: hue-rotate(360deg); }
+}
+
+.largeGear {
+    position: absolute;
+    bottom: -200px;
+    left: -200px;
+    width: 500px;
+    height: 500px;
+    animation: 40s linear 0s infinite ratateIt;
+}
+
+.largeGear2 {
+    position: absolute;
+    bottom: -400px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+    animation: 40s linear 0s infinite ratateItCC;
+}
+
+.gearSVG {
+    width: 100%;
+}
+
+.smallgear {
+    position: absolute;
+    bottom: -150px;
+    right: 20px;
+    width: 300px;
+    height: 300px;
+    animation: 40s linear 0s infinite ratateItCC;
+}
+
+.smallgear2 {
+    position: absolute;
+    bottom: 50px;
+    right: -180px;
+    width: 300px;
+    height: 300px;
+    animation: 40s linear 0s infinite ratateItCogCompensate;
+}
+
+.largeGear3{
+    position: absolute;
+    bottom: -400px;
+    right: -400px;
+    width: 900px;
+    height: 900px;
+    animation: 40s linear 0s infinite ratateItCC;
+}
+
+.largeGear2pink {
+    animation: 70s linear 0s infinite ratateIt;
+}
+
+.largeGear3orange {
+    position: absolute;
+    bottom: -200px;
+    right: 300px;
+    width: 450px;
+    height: 450px;
+    animation: 60s linear 0s infinite ratateItCC;
+}
+
+.largeGear2pink2 {
+    position: absolute;
+    bottom: -200px;
+    left: -100px;
+    width: 600px;
+    height: 600px;
+    animation: 50s linear 0s infinite ratateItCC;
+
+}
+
+
+@keyframes ratateIt {
+    from {    transform: rotate(0deg);   }
+    to   {    transform: rotate(360deg); }
+}
+
+
+@keyframes ratateItCogCompensate {
+    from {    transform: rotate(22.5deg);   }
+    to   {    transform: rotate(383.5deg); }
+}
+
+@keyframes ratateItCC {
+    from {    transform: rotate(360deg);   }
+    to   {    transform: rotate(0deg); }
 }
