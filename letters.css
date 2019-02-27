@@ -38,10 +38,13 @@
     width: 900px;
     height: 900px;
     animation: 40s linear 0s infinite ratateItCC;
+    filter: blur(3px)
+
 }
 
 .gearSVG {
     width: 100%;
+    
 }
 
 .smallgear {
@@ -69,10 +72,13 @@
     width: 900px;
     height: 900px;
     animation: 40s linear 0s infinite ratateItCC;
+
 }
 
 .largeGear2pink {
     animation: 70s linear 0s infinite ratateIt;
+    filter: blur(8px)
+
 }
 
 .largeGear3orange {
@@ -82,6 +88,8 @@
     width: 450px;
     height: 450px;
     animation: 60s linear 0s infinite ratateItCC;
+    filter: blur(5px)
+
 }
 
 .largeGear2pink2 {
@@ -91,6 +99,8 @@
     width: 600px;
     height: 600px;
     animation: 50s linear 0s infinite ratateItCC;
+    filter: blur(3px)
+
 
 }
 
