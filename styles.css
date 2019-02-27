@@ -99,6 +99,10 @@ a {
     text-decoration: none;
 }
 
+.underlinedLink {
+    text-decoration: underline
+}
+
 .main {
     height: 100vh;
     box-sizing: border-box;
