@@ -200,11 +200,14 @@ h2 {
 
 .tech {
     padding-top: 15px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     width: 100%;
     text-align: center;
 }
 
+
+/* 
 .mobileTechGroup1 {
     display: inline;
     display: flex;
@@ -217,12 +220,14 @@ h2 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-}
+} */
 
 .tech>div {
     width: 200px;
     height: 100px;
     width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .techName {
@@ -231,6 +236,11 @@ h2 {
     font-weight: 600;
     width: 100%;
     text-align: center;
+    margin: 0 auto;
+}
+
+.techRails {
+    transform: translateX(-25px)
 }
 
 #htmlText {color: magenta;}
@@ -486,14 +496,22 @@ li {
     }
 
     .tech {
-        display: none;
+        padding-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 100%;
+        text-align: center;
     }
+
+    /* .tech {
+        display: none;
+    } */
 
     .social {
         padding-top: 20px;
     }
 
-
+/* 
     .mobileTechGroup1 {
         justify-content: space-between;
         display: flex;
@@ -513,7 +531,7 @@ li {
         display: flex;
         width: 100%;
         text-align: center;
-    }
+    } */
 
     .mobileDiamond {
         display: block;
@@ -592,10 +610,19 @@ li {
         left: 10px;
         height: 80px;
     }
-
-
 }
 
+
+
+@media only screen and (max-width: 670px) {
+    .tech {
+        padding-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 690px) {
 
