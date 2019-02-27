@@ -126,13 +126,14 @@ a:hover {
 
 .backButton {
     position: fixed;
-    top: 10px;
-    left: 10px;
-    border-radius: 50%;
-    background-color: white;
-    border: 0.2px solid rgb(179, 179, 179);
-    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    top: 15px;
+    left: 15px;
+    border-radius: 0%;
+    background-color: black;
+    /* border: 0.2px solid rgb(179, 179, 179); */
+    /* box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5); */
     width: 40px;
+    transform: rotate(45deg);
     height: 40px;
     display: flex;
     justify-content: center;
@@ -141,20 +142,30 @@ a:hover {
 }
 
 .backButton>img {
-    width:66%
+    width:66%;
+    transform: rotate(-45deg);
+    transition: 0.1s;
+
 }
 
 .backButton:hover {
-    transform: translateX(2px) translateY(2px);
-    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    transform: rotate(0deg);
+    /* transform: translateX(2px) translateY(2px); */
+    /* box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5); */
     transition: 0.1s;
-    background: rgb(223, 223, 223);
+    background: black;
+}
 
+.backButton:hover>img {
+    transform: rotate(0deg);
+    transition: 0.1s;
 
 }
 
+
+
 .backButton:active {
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(97, 97, 97);
 }
 
 .screencap {

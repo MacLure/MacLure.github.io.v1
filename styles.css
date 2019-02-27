@@ -31,6 +31,18 @@ p {letter-spacing: 0.05em}
 .projectsH2 {width: 180px; margin-top: 0px;}
 .projectTechStackH2 {width: 250px}
 
+.heroH2:hover{
+    /* background: -webkit-linear-gradient(45deg, magenta, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    animation: 1s linear 0s infinite cycleGradient;
+}
+
+@keyframes cycleGradient {
+    from {filter: hue-rotate(0deg);}
+    to {filter: hue-rotate(360deg);}
+}
+
 canvas {
     position: absolute;
     z-index: 1;
@@ -38,7 +50,7 @@ canvas {
 
 .profilepic {
     height: 95%;
-    border-radius: 50%;
+    border-radius: 18%;
 }
 
 .profileBorder{
@@ -48,8 +60,9 @@ canvas {
     justify-content: center;
     width: 300px;
     height: 322.5px;
-    border-radius: 50%;
+    border-radius: 20%;
     background: -webkit-linear-gradient(-45deg, magenta, orange);
+    
 }
 
 .skillsList {
@@ -76,6 +89,11 @@ a {
 h1 {
     font-size: 3.05em;
     font-weight: 800;
+    line-height: 1em;
+}
+
+.lineDivider {
+    display: inline;
 }
 
 h2 {
@@ -436,9 +454,6 @@ li {
         text-align: center;
     }
 
-    h2 {
-        font-size: 1.5em;
-    }
 
     .mobileDiamond {
         display: block;
@@ -519,4 +534,28 @@ li {
     }
 
 
+}
+
+
+@media only screen and (max-width: 690px) {
+
+    .lineDivider {
+        display: block;
+    }
+
+    .heroH2 {
+        font-size: 1.63em;
+        width: 300px;
+    }
+
+    .developerSize {
+        letter-spacing: 0.4em;
+    }
+
+
+    .techHeader {
+        font-size: 1.7em;
+    }
+
+    
 }

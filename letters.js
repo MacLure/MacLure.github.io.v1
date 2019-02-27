@@ -210,12 +210,3 @@ window.onload = function() {
   setTimeout(function(){l7.classList.remove("active")}, 2000 * adjustor)
 }
 
-
-heroH2 = document.querySelector('.heroH2')
-
-
-heroH2.addEventListener('mouseover', function (e) {
-  console.log("OK")
-  heroH2.classList.remove("active")
-  e.stopPropagation()
-})
