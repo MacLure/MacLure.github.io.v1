@@ -622,10 +622,11 @@ li {
         letter-spacing: 0.4em;
     }
 
-
     .techHeader {
         font-size: 1.7em;
     }
+}
 
-    
+@media only screen and (max-width: 690px) {
+
 }

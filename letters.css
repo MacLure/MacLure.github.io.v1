@@ -22,86 +22,80 @@
     to   {    color: rgb(255, 107, 255);filter: hue-rotate(360deg); }
 }
 
-.largeGear {
-    position: absolute;
-    bottom: -200px;
-    left: -200px;
-    width: 500px;
-    height: 500px;
-    animation: 40s linear 0s infinite ratateIt;
-}
 
-.largeGear2 {
-    position: absolute;
-    bottom: -400px;
-    right: -400px;
-    width: 900px;
-    height: 900px;
-    animation: 40s linear 0s infinite ratateItCC;
-    filter: blur(3px)
 
-}
+/* GEARS */
 
 .gearSVG {
     width: 100%;
-    
 }
 
-.smallgear {
+.leftBlackGear {
     position: absolute;
-    bottom: -150px;
-    right: 20px;
-    width: 300px;
-    height: 300px;
+    bottom: -16vw;
+    left: -16vw;
+    width: 40vw;
+    height: 40vw;
+    animation: 40s linear 0s infinite ratateIt;
+}
+
+.rightBlackGearBottom {
+    position: absolute;
+    bottom: -10vw;
+    right: 2vw;
+    width: 22vw;
+    height: 22vw;
+    /* transform: translateY(11vw); */
     animation: 40s linear 0s infinite ratateItCC;
 }
 
-.smallgear2 {
+.rightBlackGearRight {
     position: absolute;
-    bottom: 50px;
-    right: -180px;
-    width: 300px;
-    height: 300px;
+    bottom: 5vw;
+    right: -13vw;
+    width: 22vw;
+    height: 22vw;
     animation: 40s linear 0s infinite ratateItCogCompensate;
 }
 
-.largeGear3{
+.largeLeftPinkGear {
     position: absolute;
-    bottom: -400px;
-    right: -400px;
-    width: 900px;
-    height: 900px;
-    animation: 40s linear 0s infinite ratateItCC;
-
-}
-
-.largeGear2pink {
-    animation: 70s linear 0s infinite ratateIt;
-    filter: blur(8px)
-
-}
-
-.largeGear3orange {
-    position: absolute;
-    bottom: -200px;
-    right: 300px;
-    width: 450px;
-    height: 450px;
-    animation: 60s linear 0s infinite ratateItCC;
-    filter: blur(5px)
-
-}
-
-.largeGear2pink2 {
-    position: absolute;
-    bottom: -200px;
-    left: -100px;
-    width: 600px;
-    height: 600px;
+    bottom: -14vw;
+    left: -7vw;
+    width: 44vw;
+    height: 44vw;
     animation: 50s linear 0s infinite ratateItCC;
     filter: blur(3px)
+}
 
+.largeRightPinkGear {
+    position: absolute;
+    bottom: -30vw;
+    right: -30vw;
+    width: 66vw;
+    height: 66vw;
+    animation: 40s linear 0s infinite ratateItCC;
+    filter: blur(3px)
+}
 
+.smallCenterPinkGear {
+    position: absolute;
+    bottom: -14vw;
+    right: 23vw;
+    width: 34vw;
+    height: 34vw;
+    animation: 60s linear 0s infinite ratateItCC;
+    filter: blur(5px)
+}
+
+.largeOrangeGear {
+    position: absolute;
+    animation: 70s linear 0s infinite ratateIt;
+    filter: blur(8px);
+    width: 90vw;
+    left: 5vw;
+    bottom: -47vw;
+    /* bottom: -48vw; */
 }
 
 
