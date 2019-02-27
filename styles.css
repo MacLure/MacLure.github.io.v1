@@ -1,15 +1,16 @@
 body {
-    /* background-color: black;
-    color: white; */
-    /* font-family: 'Archivo Black', sans-serif; */
     font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Heebo', sans-serif; */
     letter-spacing: 0.075em;
     line-height: 1.4em;
     font-size: 1.2em;
     font-weight: 400;
     background-color: black;
 }
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
 
 p {letter-spacing: 0.05em}
 
@@ -32,9 +33,6 @@ p {letter-spacing: 0.05em}
 .projectTechStackH2 {width: 250px}
 
 .heroH2:hover{
-    /* background: -webkit-linear-gradient(45deg, magenta, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     animation: 1s linear 0s infinite cycleGradient;
 }
 
@@ -68,7 +66,6 @@ canvas {
     transition: 0.1s
 }
 
-
 .profilepic {
     height: 95%;
     border-radius: 18%;
@@ -83,7 +80,6 @@ canvas {
     height: 322.5px;
     border-radius: 20%;
     background: -webkit-linear-gradient(-45deg, magenta, orange);
-    
 }
 
 .skillsList {
@@ -131,9 +127,9 @@ h2 {
     -webkit-text-fill-color: transparent;
 }
 
-.sectionPadding {
+/* .sectionPadding {
     margin: 50px;
-}
+} */
 
 .white {
     position: relative;
@@ -157,12 +153,16 @@ h2 {
 }
 
 .grid-left {
-    width: 500px;
+    padding: 0 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    
 }
 
 .grid-right {
     /* width: 30vw; */
     position: relative;
+    padding: 0 20px;
 }
 
 .whiteLink {
@@ -243,8 +243,6 @@ h2 {
 #railsText {color: rgb(253, 142, 98);}
 #gitText {color: orange;}
 
-
-
 .showText {
     opacity: 1;
 }
@@ -253,11 +251,9 @@ h2 {
     grid-template-columns: 1fr 1fr;
 }
 
-
 .projects>div {
     padding: 20px;
 }
-
 
 .diamond {
     margin: 0 auto;
@@ -267,7 +263,6 @@ h2 {
     overflow: visible;
     color: black;
     transition: 0.2s;
-
 }
 
 .gradientHover {
@@ -361,7 +356,6 @@ h2 {
     top: 166px;
     z-index: 100;
 }
-
 
 .projectLogo {
     height: 100px;
@@ -459,8 +453,6 @@ li {
     max-width: 500px;
 }
 
-
-
 .mobileDiamond {
     display: none;
 }
@@ -468,7 +460,6 @@ li {
 .mobileDiamond4, .mobileDiamond3, .mobileDiamond2, .mobileDiamond1 {
     display: none;
 }
-
 
 @media only screen and (max-width: 1020px) {
 
@@ -523,7 +514,6 @@ li {
         width: 100%;
         text-align: center;
     }
-
 
     .mobileDiamond {
         display: block;
@@ -627,6 +617,14 @@ li {
     }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 2.5em;
+    }
 
+    .heroH2 {
+        font-size: 1.35em;
+        width: 250px;
+
+    }
 }
