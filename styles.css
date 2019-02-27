@@ -24,13 +24,10 @@ p {letter-spacing: 0.05em}
 }
 
 .heroH2 {width: 600px; cursor: default;}
-.aboutMeH2 {width: 220px; margin-bottom: 40px;}
-.techHeader {width: 410px; margin-bottom: 20px;
-    padding-top: 40px;
-    padding-bottom: 15px;
-}
-.projectsH2 {width: 180px; margin-top: 0px;}
-.projectTechStackH2 {width: 250px}
+.aboutMeH2 {width: 220px; margin: 50px 0 40px 0; padding: 0 0 0 50px;}
+.techHeader {width: 410px; margin: 0 0 20px 0; padding: 40px 0 15px 50px;}
+.projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 0 0 0 50px;}
+.projectTechStackH2 {width: 250px;}
 
 .heroH2:hover{
     animation: 1s linear 0s infinite cycleGradient;
@@ -68,7 +65,7 @@ canvas {
 
 .profilepic {
     height: 95%;
-    border-radius: 18%;
+    border-radius: 8%;
 }
 
 .profileBorder{
@@ -78,7 +75,7 @@ canvas {
     justify-content: center;
     width: 300px;
     height: 322.5px;
-    border-radius: 20%;
+    border-radius: 10%;
     background: -webkit-linear-gradient(-45deg, magenta, orange);
 }
 
@@ -177,6 +174,7 @@ h2 {
     justify-content: space-around;
     width: 300px;
     bottom: 0;
+
 }
 
 .footersocial {
@@ -187,6 +185,7 @@ h2 {
     justify-content: space-around;
     width: 300px;
     bottom: 0;
+    padding-bottom: 50px;
 }
 
 .socialIcon {
@@ -263,6 +262,8 @@ h2 {
 
 .projects>div {
     padding: 20px;
+    margin-bottom: 50px;
+
 }
 
 .diamond {
@@ -621,6 +622,10 @@ li {
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
         text-align: center;
+    }
+
+    .projects {
+        margin-top: 50px;
     }
 }
 
