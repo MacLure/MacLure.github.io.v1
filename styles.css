@@ -270,7 +270,7 @@ h2 {
 
 }
 
-.diamond>a>div:hover {
+.gradientHover {
     background: -webkit-linear-gradient(45deg, magenta, orange);
 }
 
@@ -278,6 +278,15 @@ h2 {
     transform: rotate(-45deg);
 }
 
+.diamond1Activator {
+    position: absolute;
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    left: 247px;
+    z-index: 100;
+}
 
 .diamond1{
     position: absolute;
@@ -286,6 +295,7 @@ h2 {
     height: 200px;
     background-color: white;
     left: 247px;
+    z-index: 1;
 }
 
 .diamond2{
@@ -295,6 +305,17 @@ h2 {
     height: 200px;
     background-color: white;
     left: 540px;
+    z-index: 1;
+}
+
+.diamond2Activator{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    left: 540px;
+    z-index: 100;
 }
 
 .diamond3{
@@ -305,6 +326,18 @@ h2 {
     background-color: white;
     left: 100px;
     top: 166px;
+    z-index: 1;
+}
+
+.diamond3Activator{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    left: 100px;
+    top: 166px;
+    z-index: 100;
 }
 
 .diamond4{
@@ -315,6 +348,18 @@ h2 {
     background-color: white;
     left: 393px;
     top: 166px;
+    z-index: 1;
+}
+
+.diamond4Activator{
+    position: absolute;
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    left: 393px;
+    top: 166px;
+    z-index: 100;
 }
 
 
