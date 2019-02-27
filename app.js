@@ -18,6 +18,13 @@ rubyText = document.querySelector('#rubyText')
 railsText = document.querySelector('#railsText')
 gitText = document.querySelector('#gitText')
 
+scrollButton = document.querySelector('.scrollButton')
+scrollButton.addEventListener("click", function () {window.scroll({
+  top: window.innerHeight   , 
+  left: 0, 
+  behavior: 'smooth'
+});})
+
 html.addEventListener('mouseover', function () {htmlText.innerText=('HTML 5')})
 css.addEventListener('mouseover', function () {cssText.innerText=('CSS 3')})
 js.addEventListener('mouseover', function () {jsText.innerText=('Javascript')})

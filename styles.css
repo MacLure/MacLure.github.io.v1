@@ -48,6 +48,27 @@ canvas {
     z-index: 1;
 }
 
+.scrollButton {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50px);
+    opacity: 0.3;
+    transition: 0.1s
+}
+
+.scrollButton>img {
+    width: 100%;
+}
+
+.scrollButton:hover {
+    opacity: 1;
+    transition: 0.1s
+}
+
+
 .profilepic {
     height: 95%;
     border-radius: 18%;

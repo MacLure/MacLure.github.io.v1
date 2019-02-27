@@ -124,6 +124,10 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.musicList {
+    list-style-image: url('./projects/classical-harmony/musical-note.svg');
+}
+
 .backButton {
     position: fixed;
     top: 15px;
