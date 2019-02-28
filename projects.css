@@ -22,7 +22,6 @@ a:hover {
 
 .headerLeft {
     grid-column-start: 1;
-    padding-left: 50px;
     margin: 0 auto;
     width: 300px;
     text-align: center;
@@ -219,6 +218,14 @@ a:hover {
     padding-bottom: 50px;
 }
 
+@media only screen and (max-width: 1250px) {
+
+    .laptop {
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+}
 
 @media only screen and (max-width: 1020px) {
 
@@ -235,4 +242,24 @@ a:hover {
     .headerRight {
         margin: 0 auto;
     }
+    .laptop {
+        transform: translateY(-5vw);
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .headerRight {
+        padding: 0 20px 30px;
+        max-width: 70vw;
+        margin: 0 auto;
+    }
+
+
+
+    .laptop {
+        min-width: 300px;
+        min-height: 300px;
+    }
+
 }

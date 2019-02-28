@@ -32,7 +32,7 @@
 
 .camera {
   position: absolute;
-  top: 7px;
+  top: 2%;
   left: 50%;
   margin: auto;
   height: 7px;
@@ -44,7 +44,7 @@
 
 .screen {
   position: absolute;
-  top: 20px;
+  top: 6%;
   left: 2.5%;
   margin: auto;
   height: 50%;
