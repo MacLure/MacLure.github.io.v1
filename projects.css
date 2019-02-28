@@ -225,6 +225,11 @@ a:hover {
         min-height: 400px;
     }
 
+    .smartphone {
+        min-width: 150px;
+        min-height: 290px;
+    }
+
 }
 
 @media only screen and (max-width: 1020px) {
