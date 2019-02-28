@@ -26,7 +26,7 @@ p {letter-spacing: 0.05em}
 .heroH2 {width: 600px; cursor: default;}
 .aboutMeH2 {width: 220px; margin: 50px 0 40px 0; padding: 0 0 0 50px;}
 .techHeader {width: 410px; margin: 0 0 20px 0; padding: 40px 0 15px 50px;}
-.projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 10px 0 0 50px;}
+.projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 10px 0 10px 50px;}
 .projectTechStackH2 {width: 250px;}
 
 .heroH2:hover{
@@ -153,7 +153,6 @@ h2 {
     padding: 0 20px 30px;
     max-width: 500px;
     margin: 0 auto;
-    
 }
 
 .grid-right {
@@ -617,6 +616,19 @@ li {
     .techHeader {
         font-size: 1.7em;
     }
+
+    .grid-left {
+        padding: 0 20px 30px;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+
+    .techHeader {
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -627,6 +639,6 @@ li {
     .heroH2 {
         font-size: 1.35em;
         width: 250px;
-
     }
+
 }
