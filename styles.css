@@ -26,7 +26,7 @@ p {letter-spacing: 0.05em}
 .heroH2 {width: 600px; cursor: default;}
 .aboutMeH2 {width: 220px; margin: 50px 0 40px 0; padding: 0 0 0 50px;}
 .techHeader {width: 410px; margin: 0 0 20px 0; padding: 40px 0 15px 50px;}
-.projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 0 0 0 50px;}
+.projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 10px 0 0 50px;}
 .projectTechStackH2 {width: 250px;}
 
 .heroH2:hover{
@@ -150,7 +150,7 @@ h2 {
 }
 
 .grid-left {
-    padding: 0 20px;
+    padding: 0 20px 30px;
     max-width: 500px;
     margin: 0 auto;
     
@@ -159,7 +159,7 @@ h2 {
 .grid-right {
     /* width: 30vw; */
     position: relative;
-    padding: 0 20px;
+    padding: 0 20px 30px;
 }
 
 .whiteLink {
@@ -488,10 +488,6 @@ li {
         margin: 0 auto;
     }
 
-    /* .black {
-      background-color: green;
-    } */
-
     .sectionPadding {
         margin: 10px;
     }
@@ -504,35 +500,9 @@ li {
         text-align: center;
     }
 
-    /* .tech {
-        display: none;
-    } */
-
     .social {
         padding-top: 20px;
     }
-
-/* 
-    .mobileTechGroup1 {
-        justify-content: space-between;
-        display: flex;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .mobileTechGroup2 {
-        justify-content: space-between;
-        display: flex;
-        width: 100%;
-        text-align: center;
-    }
-
-    .mobileTechGroup3 {
-        justify-content: space-between;
-        display: flex;
-        width: 100%;
-        text-align: center;
-    } */
 
     .mobileDiamond {
         display: block;
