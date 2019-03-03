@@ -19,11 +19,7 @@ p {letter-spacing: 0.05em}
     grid-template-columns: 2fr 1fr;
 }
 
-.hero {
-    position: relative;
-}
-
-.heroH2 {width: 600px; cursor: default;}
+.heroH2 {width: 600px; cursor: default; transition: opacity 1s;}
 .aboutMeH2 {width: 220px; margin: 50px 0 40px 0; padding: 0 0 0 50px;}
 .techHeader {width: 410px; margin: 0 0 20px 0; padding: 40px 0 15px 50px;}
 .projectsH2 {width: 180px; margin:  50px 0 50px 0;  padding: 10px 0 10px 50px;}
@@ -51,7 +47,8 @@ canvas {
     left: 50%;
     transform: translateX(-50px);
     opacity: 0.3;
-    transition: 0.1s
+    transition: 0.1s;
+    transition: opacity 1s;
 }
 
 .scrollButton>img {
@@ -112,6 +109,7 @@ h1 {
 
 .lineDivider {
     display: inline;
+    transition: opacity 1s;
 }
 
 h2 {
@@ -123,10 +121,6 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* .sectionPadding {
-    margin: 50px;
-} */
 
 .white {
     position: relative;
@@ -203,22 +197,6 @@ h2 {
     width: 100%;
     text-align: center;
 }
-
-
-/* 
-.mobileTechGroup1 {
-    display: inline;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.MobileTechGroup2 {
-    display: inline;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-} */
 
 .tech>div {
     width: 200px;
@@ -383,28 +361,6 @@ h2 {
 .paragraph {
     text-align: justify;
     padding: 0 0 15px 0;
-}
-
-.web_development_header {
-    position: relative;
-    height: 40px;
-}
-
-.web_development1 {
-    position: absolute;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: cyan;
-    mix-blend-mode: multiply;
-}
-
-.web_development2 {
-    position: absolute;top: 5px;
-    left: 5px;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: magenta;
-    mix-blend-mode: multiply;
 }
 
 li {
