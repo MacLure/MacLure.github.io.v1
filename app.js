@@ -113,6 +113,29 @@ const diamond2Activator = document.querySelector('.diamond2Activator')
 const diamond3Activator = document.querySelector('.diamond3Activator')
 const diamond4Activator = document.querySelector('.diamond4Activator')
 
+const opacity = 0.4
+
+function resetTechStyles() {
+htmlText.innerText=('')
+cssText.innerText=('')
+jsText.innerText=('')
+reactText.innerText=('')
+reduxText.innerText=('')
+sassText.innerText=('')
+rubyText.innerText=('')
+railsText.innerText=('')
+gitText.innerText=('')
+html.style.opacity=('1')
+css.style.opacity=('1')
+js.style.opacity=('1')
+react.style.opacity=('1')
+redux.style.opacity=('1')
+sass.style.opacity=('1')
+ruby.style.opacity=('1')
+rails.style.opacity=('1')
+git.style.opacity=('1')
+}
+
 diamond1Activator.addEventListener('mousemove', move1);
 diamond1Activator.addEventListener('mouseleave', reset1);
 diamond1Activator.addEventListener('mouseover', function() {
@@ -121,20 +144,13 @@ diamond1Activator.addEventListener('mouseover', function() {
   jsText.innerText=('Javascript')
   reactText.innerText=('React')
   reduxText.innerText=('Redux')
-
+  sass.style.opacity=(`${opacity}`)
+  rubyText.innerText=('Ruby')
+  railsText.innerText=('Rails')
+  gitText.innerText=('Git')
 });
 
-diamond1Activator.addEventListener('mouseout', function() {
-  htmlText.innerText=('')
-  cssText.innerText=('')
-  jsText.innerText=('')
-  reactText.innerText=('')
-  reduxText.innerText=('')
-  sassText.innerText=('')
-  rubyText.innerText=('')
-  railsText.innerText=('')
-  gitText.innerText=('')
-})
+diamond1Activator.addEventListener('mouseout', function(){resetTechStyles()})
 
 diamond2Activator.addEventListener('mousemove', move2);
 diamond2Activator.addEventListener('mouseleave', reset2);
@@ -142,21 +158,16 @@ diamond2Activator.addEventListener('mouseover', function() {
   htmlText.innerText=('HTML 5')
   cssText.innerText=('CSS 3')
   jsText.innerText=('Javascript')
+  react.style.opacity=(`${opacity}`)
+  redux.style.opacity=(`${opacity}`)
   sassText.innerText=('Sass')
   rubyText.innerText=('Ruby')
   railsText.innerText=('Rails')
+  gitText.innerText=('Git')
+
 });
-diamond2Activator.addEventListener('mouseout', function() {
-  htmlText.innerText=('')
-  cssText.innerText=('')
-  jsText.innerText=('')
-  reactText.innerText=('')
-  reduxText.innerText=('')
-  sassText.innerText=('')
-  rubyText.innerText=('')
-  railsText.innerText=('')
-  gitText.innerText=('')
-})
+diamond2Activator.addEventListener('mouseout', function(){resetTechStyles()})
+
 
 diamond3Activator.addEventListener('mousemove', move3);
 diamond3Activator.addEventListener('mouseleave', reset3);
@@ -164,18 +175,15 @@ diamond3Activator.addEventListener('mouseover', function() {
   htmlText.innerText=('HTML 5')
   cssText.innerText=('CSS 3')
   jsText.innerText=('Javascript')
+  react.style.opacity=(`${opacity}`)
+  redux.style.opacity=(`${opacity}`)
+  sass.style.opacity=(`${opacity}`)
+  ruby.style.opacity=(`${opacity}`)
+  rails.style.opacity=(`${opacity}`)
+  gitText.innerText=('Git')
 });
-diamond3Activator.addEventListener('mouseout', function() {
-  htmlText.innerText=('')
-  cssText.innerText=('')
-  jsText.innerText=('')
-  reactText.innerText=('')
-  reduxText.innerText=('')
-  sassText.innerText=('')
-  rubyText.innerText=('')
-  railsText.innerText=('')
-  gitText.innerText=('')
-})
+diamond3Activator.addEventListener('mouseout', function(){resetTechStyles()})
+
 
 diamond4Activator.addEventListener('mousemove', move4);
 diamond4Activator.addEventListener('mouseleave', reset4);
@@ -183,15 +191,11 @@ diamond4Activator.addEventListener('mouseover', function() {
   htmlText.innerText=('HTML 5')
   cssText.innerText=('CSS 3')
   jsText.innerText=('Javascript')
+  react.style.opacity=(`${opacity}`)
+  redux.style.opacity=(`${opacity}`)
+  sass.style.opacity=(`${opacity}`)
+  ruby.style.opacity=(`${opacity}`)
+  rails.style.opacity=(`${opacity}`)
+  gitText.innerText=('Git')
 });
-diamond4Activator.addEventListener('mouseout', function() {
-  htmlText.innerText=('')
-  cssText.innerText=('')
-  jsText.innerText=('')
-  reactText.innerText=('')
-  reduxText.innerText=('')
-  sassText.innerText=('')
-  rubyText.innerText=('')
-  railsText.innerText=('')
-  gitText.innerText=('')
-})
+diamond4Activator.addEventListener('mouseout', function(){resetTechStyles()})
