@@ -224,3 +224,43 @@ diamond4Activator.addEventListener('mouseover', function() {
   gitText.classList.remove('hiddenTechName')
 });
 diamond4Activator.addEventListener('mouseout', function(){resetTechStyles()})
+
+
+
+
+emailLink = document.querySelector("#emailLink")
+linkedInLink = document.querySelector("#linkedInLink")
+gitHubLink = document.querySelector("#gitHubLink")
+codePenLink = document.querySelector("#codePenLink")
+
+
+emailIconPath = document.querySelector(".emailIconPath")
+gitHubIconPath = document.querySelector(".gitHubIconPath")
+linkedInIconPath = document.querySelector(".linkedInIconPath")
+codePenIconPath = document.querySelector(".codePenIconPath")
+
+emailLink.addEventListener("mouseover", function() {
+  emailIconPath.style.fill=("url(#emailSVGGradient)")
+})
+linkedInLink.addEventListener("mouseover", function() {
+  linkedInIconPath.style.fill=("url(#linkedInSVGGradient)")
+})
+gitHubLink.addEventListener("mouseover", function() {
+  gitHubIconPath.style.fill=("url(#gitHubSVGGradient)")
+})
+codePenLink.addEventListener("mouseover", function() {
+  codePenIconPath.style.fill=("url(#codePenSVGGradient)")
+})
+
+emailLink.addEventListener("mouseout", function() {
+  emailIconPath.style.fill=("white")
+})
+gitHubLink.addEventListener("mouseout", function() {
+  gitHubIconPath.style.fill=("white")
+})
+linkedInLink.addEventListener("mouseout", function() {
+  linkedInIconPath.style.fill=("white")
+})
+codePenLink.addEventListener("mouseout", function() {
+  codePenIconPath.style.fill=("white")
+})

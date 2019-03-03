@@ -57,7 +57,8 @@ canvas {
 
 .scrollButton:hover {
     opacity: 1;
-    transition: 0.1s
+    transition: 0.1s;
+    cursor: pointer;
 }
 
 .profilepic {
@@ -185,10 +186,10 @@ h2 {
     height: 30px;
 }
 
-.socialIcon:hover {
+/* .socialIcon:hover {
     opacity: 0.5;
     transition: 0.2s;
-}
+} */
 
 .tech {
     padding-top: 15px;
