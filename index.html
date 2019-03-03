@@ -176,12 +176,55 @@
     </section>
 
     <section class="sectionPadding black">
-        <div class="footersocial">
-                <a href="mailto:malcolm.maclure@gmail.com"><img class="socialIcon" src="./social icons/email.svg" alt="LinkedIn"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/malcolmmaclure/"><img class="socialIcon" src="./social icons/linkedin.svg" alt="LinkedIn"></a>
-                <a target="_blank" href="https://github.com/MacLure/"><img class="socialIcon" src="./social icons/github.svg" alt="GitHub"></a>
-                <a target="_blank" href="https://codepen.io/MacLure/"><img class="socialIcon" src="./social icons/codepen.svg" alt="CodePen"></a>   
-    </div>  
+<div class="footersocial">
+                    <a id="footeremailLink" href="mailto:malcolm.maclure@gmail.com">
+                        <svg class="socialIcon footeremailIconPath" fill="white" viewBox="0 0 14 14" >
+                            <defs>
+                                <linearGradient id="footeremailSVGGradient">
+                                    <stop offset="0%" stop-color="magenta"/>
+                                    <stop offset="100%" stop-color="orange"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M7,9L5.268,7.484l-4.952,4.245C0.496,11.896,0.739,12,1.007,12h11.986 c0.267,0,0.509-0.104,0.688-0.271L8.732,7.484L7,9z"/>
+                            <path d="M13.684,2.271C13.504,2.103,13.262,2,12.993,2H1.007C0.74,2,0.498,2.104,0.318,2.273L7,8 L13.684,2.271z"/>
+                            <polygon points="0,2.878 0,11.186 4.833,7.079"/>
+                            <polygon  points="9.167,7.079 14,11.186 14,2.875"/>
+                        </svg>                    
+                    </a>
+                    <a id="footerlinkedInLink" target="_blank" href="https://www.linkedin.com/in/malcolmmaclure/">
+                        <svg class="socialIcon footerlinkedInIconPath" fill="white" viewBox="0 0 24 24" >
+                            <defs>
+                                <linearGradient id="footerlinkedInSVGGradient">
+                                    <stop offset="0%" stop-color="magenta"/>
+                                    <stop offset="100%" stop-color="orange"/>
+                                </linearGradient>
+                            </defs>
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a id="footergitHubLink" target="_blank" href="https://github.com/MacLure/">
+                        <svg class="socialIcon footergitHubIconPath" fill="white" viewBox="0 0 30 30" >
+                            <defs>
+                                <linearGradient id="footergitHubSVGGradient">
+                                    <stop offset="0%" stop-color="magenta"/>
+                                    <stop offset="100%" stop-color="orange"/>
+                                </linearGradient>
+                            </defs>
+                            <path transform="translate(-10 -10)" fill-rule="evenodd" clip-rule="evenodd" d="M25 10c-8.3 0-15 6.7-15 15 0 6.6 4.3 12.2 10.3 14.2.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2-.7-1.7-1.7-2.2-1.7-2.2-1.4-.9.1-.9.1-.9 1.5.1 2.3 1.5 2.3 1.5 1.3 2.3 3.5 1.6 4.4 1.2.1-1 .5-1.6 1-2-3.3-.4-6.8-1.7-6.8-7.4 0-1.6.6-3 1.5-4-.2-.4-.7-1.9.1-4 0 0 1.3-.4 4.1 1.5 1.2-.3 2.5-.5 3.8-.5 1.3 0 2.6.2 3.8.5 2.9-1.9 4.1-1.5 4.1-1.5.8 2.1.3 3.6.1 4 1 1 1.5 2.4 1.5 4 0 5.8-3.5 7-6.8 7.4.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7 6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10z" /> 
+                        </svg>
+                    </a>
+                    <a id="footercodePenLink" target="_blank" href="https://codepen.io/MacLure/">
+                        <svg class="socialIcon footercodePenIconPath" fill="white" viewBox="0 0 1000 1000" >
+                            <defs>
+                                <linearGradient id="footercodePenSVGGradient">
+                                    <stop offset="0%" stop-color="magenta"/>
+                                    <stop offset="100%" stop-color="orange"/>
+                                </linearGradient>
+                            </defs>        
+                            <path d="M975.4,320.4L518.1,15.5c-11-7.3-25.3-7.3-36.2,0L24.5,320.4c-9.1,6-14.5,16.3-14.5,27.2v304.9c0,10.9,5.5,21.1,14.5,27.2l457.3,304.9c5.5,3.7,11.8,5.5,18.1,5.5c6.3,0,12.6-1.8,18.1-5.5l457.3-304.9c9.1-6,14.5-16.3,14.5-27.2V347.6C990,336.7,984.5,326.4,975.4,320.4L975.4,320.4z M500,613.2L330.2,500L500,386.8L669.7,500L500,613.2z M532.6,330.1V103.7l365.8,243.9L728.6,460.8L532.6,330.1L532.6,330.1z M467.3,330.1l-196,130.7L101.5,347.6l365.8-243.9V330.1z M212.4,500L75.3,591.4V408.6L212.4,500z M271.3,539.3l196,130.7v226.4L101.5,652.5L271.3,539.3z M532.6,669.9l196-130.7l169.8,113.2L532.6,896.3V669.9z M787.5,500l137.1-91.4v182.8L787.5,500z"/>                    
+                        </svg>
+                    </a>   
+                </div> 
     </section>
 
     <script src="letters.js"></script>

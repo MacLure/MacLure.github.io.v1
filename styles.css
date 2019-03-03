@@ -226,15 +226,9 @@ h2 {
     transform: translateX(-25px)
 }
 
-#htmlText {color: magenta;}
-#cssText {color: rgb(255, 62, 245);}
-#jsText {color: rgb(255, 72, 194);}
-#reactText {color: rgb(255, 89, 200);}
-#reduxText {color: rgb(253, 102, 165);}
-#sassText {color: rgb(255, 111, 147);}
-#rubyText {color: rgb(253, 129, 98);}
-#railsText {color: rgb(253, 142, 98);}
-#gitText {color: orange;}
+#htmlText,#cssText,#jsText,#reactText,#reduxText,#sassText,#rubyText,#railsText,#gitText {
+    color: white;
+}
 
 .showText {
     opacity: 1;

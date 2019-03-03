@@ -233,7 +233,6 @@ linkedInLink = document.querySelector("#linkedInLink")
 gitHubLink = document.querySelector("#gitHubLink")
 codePenLink = document.querySelector("#codePenLink")
 
-
 emailIconPath = document.querySelector(".emailIconPath")
 gitHubIconPath = document.querySelector(".gitHubIconPath")
 linkedInIconPath = document.querySelector(".linkedInIconPath")
@@ -263,4 +262,41 @@ linkedInLink.addEventListener("mouseout", function() {
 })
 codePenLink.addEventListener("mouseout", function() {
   codePenIconPath.style.fill=("white")
+})
+
+
+footeremailLink = document.querySelector("#footeremailLink")
+footerlinkedInLink = document.querySelector("#footerlinkedInLink")
+footergitHubLink = document.querySelector("#footergitHubLink")
+footercodePenLink = document.querySelector("#footercodePenLink")
+
+footeremailIconPath = document.querySelector(".footeremailIconPath")
+footergitHubIconPath = document.querySelector(".footergitHubIconPath")
+footerlinkedInIconPath = document.querySelector(".footerlinkedInIconPath")
+footercodePenIconPath = document.querySelector(".footercodePenIconPath")
+
+footeremailLink.addEventListener("mouseover", function() {
+  footeremailIconPath.style.fill=("url(#footeremailSVGGradient)")
+})
+footerlinkedInLink.addEventListener("mouseover", function() {
+  footerlinkedInIconPath.style.fill=("url(#footerlinkedInSVGGradient)")
+})
+footergitHubLink.addEventListener("mouseover", function() {
+  footergitHubIconPath.style.fill=("url(#footergitHubSVGGradient)")
+})
+footercodePenLink.addEventListener("mouseover", function() {
+  footercodePenIconPath.style.fill=("url(#footercodePenSVGGradient)")
+})
+
+footeremailLink.addEventListener("mouseout", function() {
+  footeremailIconPath.style.fill=("white")
+})
+footergitHubLink.addEventListener("mouseout", function() {
+  footergitHubIconPath.style.fill=("white")
+})
+footerlinkedInLink.addEventListener("mouseout", function() {
+  footerlinkedInIconPath.style.fill=("white")
+})
+footercodePenLink.addEventListener("mouseout", function() {
+  footercodePenIconPath.style.fill=("white")
 })
