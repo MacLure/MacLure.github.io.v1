@@ -204,6 +204,7 @@ h2 {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    transition: opacity 0.2s; 
 }
 
 .techName {
@@ -213,6 +214,11 @@ h2 {
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    transition: opacity 0.2s; 
+}
+
+.hiddenTechName {
+    opacity: 0;
 }
 
 .techRails {
@@ -279,6 +285,7 @@ h2 {
     background-color: white;
     left: 247px;
     z-index: 1;
+    transition: opacity 0.2s;
 }
 
 .diamond2{
@@ -289,6 +296,7 @@ h2 {
     background-color: white;
     left: 540px;
     z-index: 1;
+    transition: opacity 0.2s;
 }
 
 .diamond2Activator{
@@ -299,6 +307,7 @@ h2 {
     background-color: transparent;
     left: 540px;
     z-index: 100;
+    
 }
 
 .diamond3{
@@ -310,6 +319,7 @@ h2 {
     left: 100px;
     top: 166px;
     z-index: 1;
+    transition: opacity 0.2s;
 }
 
 .diamond3Activator{
@@ -332,6 +342,7 @@ h2 {
     left: 393px;
     top: 166px;
     z-index: 1;
+    transition: opacity 0.2s;
 }
 
 .diamond4Activator{
