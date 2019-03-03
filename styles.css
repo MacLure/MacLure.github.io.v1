@@ -12,7 +12,7 @@ html, body {
     overflow-x: hidden !important;
   }
 
-p {letter-spacing: 0.05em}
+p {letter-spacing: 0.075em}
 
 .headerGrid {
     display: grid;
@@ -201,7 +201,7 @@ h2 {
 .tech>div {
     width: 200px;
     height: 100px;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
 }

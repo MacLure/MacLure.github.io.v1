@@ -115,12 +115,83 @@ const diamond4Activator = document.querySelector('.diamond4Activator')
 
 diamond1Activator.addEventListener('mousemove', move1);
 diamond1Activator.addEventListener('mouseleave', reset1);
+diamond1Activator.addEventListener('mouseover', function() {
+  htmlText.innerText=('HTML 5')
+  cssText.innerText=('CSS 3')
+  jsText.innerText=('Javascript')
+  reactText.innerText=('React')
+  reduxText.innerText=('Redux')
+
+});
+
+diamond1Activator.addEventListener('mouseout', function() {
+  htmlText.innerText=('')
+  cssText.innerText=('')
+  jsText.innerText=('')
+  reactText.innerText=('')
+  reduxText.innerText=('')
+  sassText.innerText=('')
+  rubyText.innerText=('')
+  railsText.innerText=('')
+  gitText.innerText=('')
+})
 
 diamond2Activator.addEventListener('mousemove', move2);
 diamond2Activator.addEventListener('mouseleave', reset2);
+diamond2Activator.addEventListener('mouseover', function() {
+  htmlText.innerText=('HTML 5')
+  cssText.innerText=('CSS 3')
+  jsText.innerText=('Javascript')
+  sassText.innerText=('Sass')
+  rubyText.innerText=('Ruby')
+  railsText.innerText=('Rails')
+});
+diamond2Activator.addEventListener('mouseout', function() {
+  htmlText.innerText=('')
+  cssText.innerText=('')
+  jsText.innerText=('')
+  reactText.innerText=('')
+  reduxText.innerText=('')
+  sassText.innerText=('')
+  rubyText.innerText=('')
+  railsText.innerText=('')
+  gitText.innerText=('')
+})
 
 diamond3Activator.addEventListener('mousemove', move3);
 diamond3Activator.addEventListener('mouseleave', reset3);
+diamond3Activator.addEventListener('mouseover', function() {
+  htmlText.innerText=('HTML 5')
+  cssText.innerText=('CSS 3')
+  jsText.innerText=('Javascript')
+});
+diamond3Activator.addEventListener('mouseout', function() {
+  htmlText.innerText=('')
+  cssText.innerText=('')
+  jsText.innerText=('')
+  reactText.innerText=('')
+  reduxText.innerText=('')
+  sassText.innerText=('')
+  rubyText.innerText=('')
+  railsText.innerText=('')
+  gitText.innerText=('')
+})
 
 diamond4Activator.addEventListener('mousemove', move4);
 diamond4Activator.addEventListener('mouseleave', reset4);
+diamond4Activator.addEventListener('mouseover', function() {
+  htmlText.innerText=('HTML 5')
+  cssText.innerText=('CSS 3')
+  jsText.innerText=('Javascript')
+});
+diamond4Activator.addEventListener('mouseout', function() {
+  htmlText.innerText=('')
+  cssText.innerText=('')
+  jsText.innerText=('')
+  reactText.innerText=('')
+  reduxText.innerText=('')
+  sassText.innerText=('')
+  rubyText.innerText=('')
+  railsText.innerText=('')
+  gitText.innerText=('')
+})
